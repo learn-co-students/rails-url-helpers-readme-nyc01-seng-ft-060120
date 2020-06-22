@@ -26,8 +26,7 @@ to the driver and let them navigate the city streets for you. It is faster than
 walking, and, if the address for the meeting changes while you're en route,
 it's not as difficult or slow to adjust.
 
-Don't worry if it's still a little fuzzy. Here's an example of what it looks
-like in code:
+Don't worry if it's still a little fuzzy. Here's an example of what it lookslike in code:
 
 * **Hard-coded path:** `"/posts/#{@post.id}"`
 
