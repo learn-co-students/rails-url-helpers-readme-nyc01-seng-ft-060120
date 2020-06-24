@@ -1,0 +1,13 @@
+<% @posts.each do |post| %>
+    <%# <div><a href='<%= "/posts/#{post.id}" %> %>
+    <%# <%= post.title</a></div> %>  %>
+    <%# Same as: %>
+    <%# link_to automatically creats an anchor tag %>
+    <%# <div><%= link_to post.title, "/posts/#{post.id}"%></div> %>
+    <%# Same as: %>
+    <%# post_path assumes it's being passed an id %>
+    <%# <div><%= link_to post.title, post_path(post.id) %></div> %>
+    <%# Same as: %>
+    <div><%= link_to post.title, post_path(post) %></div>
+    
+<% end %>
